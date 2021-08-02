@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="healthcode:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>healthcode</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="healthcode-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="healthcode:war exploded" />
+    </root>
+  </artifact>
+</component>
